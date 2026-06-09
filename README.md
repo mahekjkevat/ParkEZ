@@ -1,134 +1,91 @@
-# ParkEZ – Smart Parking System
+# 🅿️ ParkEZ – Smart Parking System
 
-## Internship Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Internship_Project-8A2BE2?style=for-the-badge" alt="Internship"/>
+  <img src="https://img.shields.io/badge/Company-Elaynetech-f57c00?style=for-the-badge" alt="Elaynetech"/>
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status"/>
+</p>
 
-ParkEZ is a comprehensive Smart Parking Management System developed during my 3-month internship at Elaynetech, Surat. The primary objective of this project was to address common parking challenges faced by vehicle owners, parking operators, and management teams by providing a centralized digital platform for parking discovery, reservation, monitoring, and administration.
-
-The system was designed with scalability, usability, and real-world parking operations in mind. It provides a seamless experience for users searching for parking spaces while also offering operational tools for parking owners and management staff.
-
-Throughout the internship, I participated in the design, planning, user experience flow creation, feature implementation, testing, and overall product development process. The project includes multiple user roles and workflows that collectively form a complete parking ecosystem.
-
----
-
-## Project Architecture
-
-ParkEZ was designed as a multi-module platform consisting of four major components:
-
-### 1. Customer Application
-
-The customer application allows users to:
-
-* Register and authenticate securely
-* Search nearby parking locations
-* View parking availability in real time
-* Filter parking locations based on preferences
-* Select parking slots
-* Choose booking duration
-* Complete online payments
-* Generate digital parking tickets
-* Access QR-based entry tickets
-* Manage booking history
-* Review completed bookings
-* Maintain personal profiles and settings
-
-### 2. Owner Application
-
-The owner module enables parking space owners to:
-
-* Manage parking locations
-* Configure parking slot availability
-* Monitor bookings
-* Track revenue and transactions
-* Review customer activity
-* Manage parking facility information
-* Handle operational parking data
-
-### 3. Watchman Application
-
-The watchman module is designed for on-ground parking operations and includes:
-
-* Vehicle verification
-* Booking validation
-* QR code scanning
-* Entry and exit monitoring
-* Parking occupancy tracking
-* Customer booking confirmation
-* Real-time parking management support
-
-### 4. Admin Panel
-
-The administration panel provides centralized system control, including:
-
-* User management
-* Parking management
-* Owner verification
-* Booking monitoring
-* Revenue oversight
-* Analytics and reporting
-* System-wide configuration and administration
+<p align="center">
+  <b>A comprehensive multi‑role Smart Parking Management System</b><br>
+  <sub>Designed for vehicle owners, parking operators, watchmen and administrators</sub>
+</p>
 
 ---
 
-## Technical Features
+## 📑 Table of Contents
 
-The project was designed to provide a complete parking management workflow, including:
-
-* User Authentication
-* OTP Verification
-* Location Services
-* Interactive Maps Integration
-* Parking Search
-* Parking Slot Management
-* Booking Management
-* Digital Payments
-* QR Ticket Generation
-* Booking History
-* Profile Management
-* Notifications
-* Reviews and Ratings
-* Multi-Role Access Control
+- [Overview](#-overview)
+- [Project Architecture](#-project-architecture)
+- [Technical Features](#-technical-features)
+- [Screenshots](#-screenshots-customer-module)
+- [Repository Notice](#-repository-notice)
+- [What’s Inside This Repo](#-whats-inside-this-repo)
+- [Internship Details](#-internship-details)
+- [Built With](#-built-with)
 
 ---
 
-## Repository Notice
+## 📖 Overview
 
-This repository is intended solely for showcasing the project design, user experience flow, and application interface developed during my internship.
+**ParkEZ** is a complete digital parking ecosystem developed during a **3‑month internship at Elaynetech, Surat**.  
+It solves real‑world parking challenges by connecting **customers**, **parking owners**, **watchmen** and **administrators** on a single, scalable platform.
 
-The complete source code, backend implementation, business logic, database structure, proprietary assets, and internal project architecture are not publicly available because the project was developed as part of an internship engagement and I do not have authorization to distribute or publish the full project source code.
-
-For this reason, this repository contains only screenshots and visual demonstrations of the Customer Module for portfolio and educational purposes.
-
-The Owner Module, Watchman Module, Admin Panel, backend services, and other proprietary project resources are intentionally excluded from this repository.
+> 💡 The system covers everything from **search & discovery** to **online payment, QR‑based entry, and revenue analytics**.
 
 ---
 
-## Current Repository Content
+## 🏗️ Project Architecture
 
-This repository currently contains:
+ParkEZ is split into **four independent but interconnected modules**:
 
-* Customer Module Screenshots
-* User Flow Demonstrations
-* UI/UX Showcase
-* Project Overview Documentation
+### 📱 Customer Application
+- Secure registration / login (with OTP)
+- Real‑time parking search & availability
+- Interactive maps & filters
+- Slot selection & time‑based booking
+- Digital payment & QR ticket generation
+- Booking history, reviews & profile management
 
-The repository serves as a visual portfolio representation of the ParkEZ Smart Parking System and demonstrates the overall user journey and application design created during the internship period.
+### 🏢 Owner Application
+- Add / edit parking locations
+- Configure slot availability & pricing
+- Live booking & revenue dashboard
+- Transaction history & customer insights
+
+### 🛡️ Watchman Application
+- QR code scanning for entry / exit
+- Real‑time booking validation
+- Vehicle verification & occupancy tracking
+- On‑ground support for smooth operations
+
+### ⚙️ Admin Panel
+- Central user, owner & parking management
+- Owner verification & booking oversight
+- System‑wide analytics & reports
+- Configuration & access control
 
 ---
 
-## Internship Details
+## ✨ Technical Features
 
-**Company:** Elaynetech, Surat
-**Project:** ParkEZ – Smart Parking System
-**Duration:** 3 Months
-**Role:** Flutter Developer Intern
+- ✅ Secure Authentication (OTP based)
+- ✅ Location Services & Interactive Maps
+- ✅ Real‑time Parking Slot Management
+- ✅ Flexible Booking Durations
+- ✅ Integrated Digital Payments
+- ✅ QR‑based Digital Tickets
+- ✅ Multi‑role Access Control
+- ✅ Push Notifications & Alerts
+- ✅ Ratings & Reviews System
+- ✅ Comprehensive Booking History
 
-This project significantly enhanced my understanding of mobile application development, real-time booking systems, payment workflows, user experience design, and large-scale multi-role application architecture.
+---
 
+## 🖼️ Screenshots (Customer Module)
 
-## Screenshots
-
-> Folder structure used in this repo:
-> `customer/Screenshot_4.png`, `customer/Screenshot_5.png`, `customer/Screenshot_6.png` ... etc.
+<p align="center"><i>All customer‑facing screens – from login to booking confirmation</i></p>
 
 <table>
   <tr>
@@ -199,3 +156,51 @@ This project significantly enhanced my understanding of mobile application devel
 </table>
 
 ---
+
+## ⚠️ Repository Notice
+
+> 🚫 **Full source code is not publicly available.**  
+> This project was developed as part of an internship engagement and I **do not have authorization** to distribute the complete codebase, backend, or proprietary assets.  
+>  
+> ✅ This repository showcases **only the Customer Module’s UI/UX** – for portfolio and educational purposes.
+
+---
+
+## 📁 What’s Inside This Repo
+
+- 📸 **Customer Module Screenshots** (full user journey)
+- 🧭 **User Flow Demonstrations**
+- 🎨 **UI / UX Showcase**
+- 📄 **Project Overview & Architecture**
+
+> *Owner, Watchman, Admin modules and backend services are intentionally excluded.*
+
+---
+
+## 🎓 Internship Details
+
+|                |                                     |
+|----------------|-------------------------------------|
+| 🏢 **Company** | Elaynetech, Surat                   |
+| 🚀 **Project** | ParkEZ – Smart Parking System       |
+| ⏳ **Duration**| 3 Months                            |
+| 💼 **Role**    | Flutter Developer Intern            |
+
+> “This internship gave me hands‑on experience in designing multi‑role mobile applications, integrating real‑time booking flows, payment gateways, and building scalable app architectures.”
+
+---
+
+## 🛠️ Built With
+
+- **Flutter** & **Dart** – Cross‑platform mobile framework
+- **Google Maps API** – Location & interactive maps
+- **Payment Gateway Integration** – Seamless digital payments
+- **QR Code Generation** – Contactless entry/exit
+- **Real‑time Database** – Live slot availability & sync (Firebase / Firestore)
+- **Role‑based Access** – Separate interfaces for each user type
+
+---
+
+<p align="center">
+  <sub>📌 This repository is a visual portfolio piece. For any queries, feel free to reach out.</sub>
+</p>
